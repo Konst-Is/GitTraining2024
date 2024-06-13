@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     func showAlert() {
         let alertController = UIAlertController(title: "Ошибка", message: "Проверьте данные", preferredStyle: .alert)
-        present(alertController, animated: true) { print("success") }
+        present(alertController, animated: true) { print("failure") }
     }
 }
 
