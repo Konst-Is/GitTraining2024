@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
+        showAlert()
     }
 
 
+    func showAlert() {
+        let alertController = UIAlertController(title: "Ошибка", message: "Проверьте данные", preferredStyle: .alert)
+        present(alertController, animated: true) { print("success") }
+    }
 }
 
