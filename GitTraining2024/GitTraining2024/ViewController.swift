@@ -12,13 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
-        showAlert()
+        print("Success")
     }
 
-
-    func showAlert() {
-        let alertController = UIAlertController(title: "Ошибка", message: "Проверьте данные", preferredStyle: .alert)
-        present(alertController, animated: true) { print("failure") }
-    }
 }
 
