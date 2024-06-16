@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let film = "Pinocio"
+    let film = "Cacao & Pinocio"
     
     override func viewDidLoad() {
         super.viewDidLoad()
